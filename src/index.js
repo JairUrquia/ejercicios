@@ -1,13 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+
 import reportWebVitals from './reportWebVitals';
+import Contador from './ejercicio1/contador';
+import Tareas from './ejercicio2/toDolist';
+import Form from './ejercicio3/form';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    
+    <Contador></Contador>
+    <Tareas></Tareas>
+    <Form></Form>
   </React.StrictMode>
 );
 
